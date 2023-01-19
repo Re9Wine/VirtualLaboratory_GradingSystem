@@ -8,7 +8,7 @@ namespace Service.Interfaces
         Task<IEnumerable<T>> GetAllAsync();
         Task<T> GetAsync(int id);
         Task<int> CreateAsync(T entity);
-        Task<bool> DeleteAsync(T entity);
-        Task<bool> UpdateAsync(T entity);
+        Task<bool> DeleteAsync(int id);
+        Task<bool> UpdateAsync(int id, T entity);
     }
 }
