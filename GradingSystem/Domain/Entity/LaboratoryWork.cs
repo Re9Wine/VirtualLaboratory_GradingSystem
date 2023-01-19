@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using Domain.MetaData;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 #nullable disable
 
 namespace Domain.Entity
 {
+    [ModelMetadataType(typeof(LaboratoryWorkMetaData))]
     public partial class LaboratoryWork
     {
         public LaboratoryWork()
