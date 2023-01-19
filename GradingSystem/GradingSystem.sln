@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{B250A96A-CBF2-474D-8F2F-4E5222759E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{5DFDB6A2-264A-4A35-862C-1405A4337142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{5DFDB6A2-264A-4A35-862C-1405A4337142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradingSystem", "GradingSystem\GradingSystem.csproj", "{21E3FB47-8155-4C7A-B056-E9DAA7270A07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5DFDB6A2-264A-4A35-862C-1405A4337142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DFDB6A2-264A-4A35-862C-1405A4337142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DFDB6A2-264A-4A35-862C-1405A4337142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E3FB47-8155-4C7A-B056-E9DAA7270A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E3FB47-8155-4C7A-B056-E9DAA7270A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E3FB47-8155-4C7A-B056-E9DAA7270A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E3FB47-8155-4C7A-B056-E9DAA7270A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
